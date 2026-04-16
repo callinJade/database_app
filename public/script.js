@@ -14,7 +14,10 @@ function submitData() {
         body: JSON.stringify(data)
     })
     .then(response => response.text())
-    .then(msg => alert(msg));
+    .then(msg => {
+        alert(msg);
+        document.getElementById('countryForm').reset();
+    });
 }
 
 function runQuery() {

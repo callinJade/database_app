@@ -41,7 +41,7 @@ p {
 
 .nav-button {
     display: inline-block;
-    background-color: maroon;
+    background-color: #6B0303;
     color: white;
     padding: 12px 24px;
     text-decoration: none;
@@ -58,10 +58,10 @@ p {
 
 /* Forms (Upload and Query) */
 #countryForm, #queryForm {
-    background: rgba(0, 0, 50, 0.85); /* Navy background with transparency */
+    background:  #6B0303;
     padding: 30px;
     border-radius: 15px;
-    border: 2px solid maroon;
+    border: 2px solid rgba(0, 0, 50, 0.85);
     width: 90%;
     max-width: 450px;
     display: flex;
@@ -84,7 +84,7 @@ p {
 
 /* Primary Action Buttons */
 button {
-    background-color: maroon;
+    background-color: #6B0303;
     color: white;
     padding: 12px 30px;
     border: none;
@@ -97,7 +97,7 @@ button {
 }
 
 button:hover {
-    background-color: navy;
+    background-color: #a00000;
     box-shadow: 0 0 10px white;
 }
 
@@ -105,8 +105,8 @@ button:hover {
 #results {
     margin-top: 20px;
     padding: 20px;
-    background: rgba(0, 0, 0, 0.8);
-    border: 1px solid maroon;
+    background: rgba(0, 0, 50, 0.85);
+    border: 1px solid #500202;
     border-radius: 10px;
     width: 80%;
     max-width: 600px;
@@ -125,7 +125,7 @@ li {
     margin: 10px 0;
     padding: 15px;
     border-radius: 8px;
-    border-left: 8px solid maroon;
+    border-left: 8px solid #6B0303;
     text-align: center;
     list-style: none;
 }
