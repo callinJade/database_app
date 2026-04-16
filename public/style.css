@@ -6,8 +6,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    align-items: center; /* Centers items horizontally */
-    color: white; /* White text for contrast */
+    align-items: center;
+    color: white;
     
     /* Background Image Setup */
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
@@ -52,16 +52,16 @@ p {
 }
 
 .nav-button:hover {
-    background-color: #a00000; /* Lighter maroon */
+    background-color: #a00000;
     border-color: white;
 }
 
 /* Forms (Upload and Query) */
 #countryForm, #queryForm {
-    background:  #6B0303;
+    background: rgba(0, 0, 50, 0.85);
     padding: 30px;
     border-radius: 15px;
-    border: 2px solid rgba(0, 0, 50, 0.85);
+    border: 2px solid #6B0303;
     width: 90%;
     max-width: 450px;
     display: flex;
@@ -97,7 +97,7 @@ button {
 }
 
 button:hover {
-    background-color: #a00000;
+    background-color: navy;
     box-shadow: 0 0 10px white;
 }
 
@@ -105,8 +105,8 @@ button:hover {
 #results {
     margin-top: 20px;
     padding: 20px;
-    background: rgba(0, 0, 50, 0.85);
-    border: 1px solid #500202;
+    background: rgba(0, 0, 0, 0.8);
+    border: 1px solid #6B0303;
     border-radius: 10px;
     width: 80%;
     max-width: 600px;
@@ -121,7 +121,7 @@ ul {
 }
 
 li {
-    background: rgba(0, 0, 50, 0.7); /* Navy transparent */
+    background: rgba(0, 0, 50, 0.7);
     margin: 10px 0;
     padding: 15px;
     border-radius: 8px;
