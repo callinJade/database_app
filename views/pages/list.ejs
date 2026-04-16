@@ -1,0 +1,14 @@
+<html>
+<head>
+
+</head>
+<body>
+<h1>Country Data: </h1>
+<ul>
+	<% countries.forEach(function(item) { %>
+	  <li><%= item.country_name %>: Known for <%= item.country_food %></li>
+	<% }); %>
+</ul>
+<a href="/" class="nav-button">Home Page</a>
+</body>
+</html>
