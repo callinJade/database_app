@@ -61,7 +61,7 @@ p {
     background: rgba(0, 0, 50, 0.85);
     padding: 30px;
     border-radius: 15px;
-    border: 2px solid #6B0303;
+    border: 9px solid #6B0303;
     width: 90%;
     max-width: 450px;
     display: flex;
@@ -97,7 +97,7 @@ button {
 }
 
 button:hover {
-    background-color: navy;
+    background-color: #a00000;
     box-shadow: 0 0 10px white;
 }
 
@@ -106,7 +106,7 @@ button:hover {
     margin-top: 20px;
     padding: 20px;
     background: rgba(0, 0, 0, 0.8);
-    border: 1px solid #6B0303;
+    border: 7px solid #6B0303;
     border-radius: 10px;
     width: 80%;
     max-width: 600px;
