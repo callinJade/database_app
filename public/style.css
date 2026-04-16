@@ -11,7 +11,7 @@ body {
     
     /* Background Image Setup */
     background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
-                url('/food-bg.jpg') no-repeat center center fixed;
+                url('/food-bg.png') no-repeat center center fixed;
     background-size: cover;
 }
 
