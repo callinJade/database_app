@@ -1,24 +1,20 @@
-This is a sample podman compose project for starting a node application with mongodb.
+This is a hosted database app that has different countries around the world and foods that represent them.
 
 To start these containers you can run:
 
-`docker compose -f compose.yml up`
-
-This will build your containers, start them, and show you their output.
-If this has all gone to plan, your container should be reachable at the specified port
-number in the compose file.
+`docker compose up --build`
 
 ---
 
 To stop these container you can run:
 
-`docker compose -f compose.yml down`
+`docker compose down`
 
 ---
 
 To start your containers in the background, you can run:
 
-`docker compose -f compose.yml  up --detach`
+`docker compose up -d --build`
 
 ---
 
@@ -31,3 +27,25 @@ To see all running containers you can run:
 To stop a specific container you can run:
 
 `docker stop <CONTAINER ID>`
+
+
+---
+
+Route names:
+
+`/` or `/index`  ---> home page
+`/query`  ---> country search page
+`/list`  ---> all countries in the database page
+`/upload`  ---> add a new country to the database page
+`/country`  ---> creates country object in database
+`/countries`  ---> performs the query
+
+---
+
+Query examples:
+
+In the query/search page, enter a country name to see a food that represents it 
+	e.g. Thailand
+		URL: https://jcollins.cs382.net/countries?name=Thailand
+	e.g. Brazil
+		URL: https://jcollins.cs382.net/countries?name=Brazil
