@@ -60,9 +60,6 @@ app.get('/countries', async (req, res) => {
     res.json(results);
 });
 
-// app.listen(port, function() {
-//   console.log("App listening on port " + port + " !");
-// });
 
 app.listen(port, '0.0.0.0', function() {
     console.log("App listening on port " + port + " !");
